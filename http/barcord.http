@@ -1,0 +1,9 @@
+### 바코드 생성
+POST http://localhost:8080/barcodes
+Accept: application/json
+Content-Type: application/json
+
+{
+  "userId": 1
+}
+

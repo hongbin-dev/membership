@@ -1,0 +1,14 @@
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+domain:
+  barcode-expiration-time: 10
+logging:
+  level:
+#    root: debug
+    org:
+
+      springframework:
+        transaction: DEBUG

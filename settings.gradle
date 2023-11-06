@@ -1,0 +1,4 @@
+rootProject.name = 'membership'
+include 'membership-core'
+include 'membership-api'
+

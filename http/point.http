@@ -1,0 +1,29 @@
+### 멤버십 포인트 추가
+POST http://localhost:8080/points
+Accept: application/json
+Content-Type: application/json
+
+{
+  "barcode": "2715801501",
+  "partnerId": 1,
+  "point": 5000
+}
+
+### 멤버십 포인트 사용
+POST http://localhost:8080/points/use
+Accept: application/json
+Content-Type: application/json
+
+{
+  "barcode": "2715801501",
+  "partnerId": 1,
+  "point": 5000
+}
+
+
+### 멤버십 포인트 조회
+GET http://localhost:8080/points
+    ?barcode=2715801501
+    &startDateTime=2023-10-01T00:00:00
+    &endDateTime=2023-10-30T23:59:59
+Accept: application/json

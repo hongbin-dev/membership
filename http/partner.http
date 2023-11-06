@@ -1,0 +1,9 @@
+### 파트너 생성
+POST http://localhost:8080/partners
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "김철수",
+  "category": "A"
+}
